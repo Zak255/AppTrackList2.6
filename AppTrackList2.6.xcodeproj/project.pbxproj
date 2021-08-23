@@ -13,6 +13,8 @@
 		2457100C26D27E5500283E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2457100B26D27E5500283E1D /* Assets.xcassets */; };
 		2457100F26D27E5500283E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2457100D26D27E5500283E1D /* LaunchScreen.storyboard */; };
 		2457101726D2B94200283E1D /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457101626D2B94200283E1D /* TrackListViewController.swift */; };
+		2498CDE726D3E3DE005ABC05 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498CDE626D3E3DE005ABC05 /* Track.swift */; };
+		2498CDE926D3FB02005ABC05 /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498CDE826D3FB02005ABC05 /* TrackDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2457100E26D27E5500283E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2457101026D27E5500283E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2457101626D2B94200283E1D /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		2498CDE626D3E3DE005ABC05 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		2498CDE826D3FB02005ABC05 /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				2457100226D27E5400283E1D /* AppDelegate.swift */,
 				2457100426D27E5400283E1D /* SceneDelegate.swift */,
+				2498CDE826D3FB02005ABC05 /* TrackDetailsViewController.swift */,
 				2457101626D2B94200283E1D /* TrackListViewController.swift */,
+				2498CDE626D3E3DE005ABC05 /* Track.swift */,
 				2457100826D27E5400283E1D /* Main.storyboard */,
 				2457100B26D27E5500283E1D /* Assets.xcassets */,
 				2457100D26D27E5500283E1D /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			files = (
 				2457100326D27E5400283E1D /* AppDelegate.swift in Sources */,
 				2457100526D27E5400283E1D /* SceneDelegate.swift in Sources */,
+				2498CDE926D3FB02005ABC05 /* TrackDetailsViewController.swift in Sources */,
 				2457101726D2B94200283E1D /* TrackListViewController.swift in Sources */,
+				2498CDE726D3E3DE005ABC05 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
